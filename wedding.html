@@ -4,26 +4,38 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-       <link rel="stylesheet" type="text/css" href="style.css">
-   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
 
     <title>Kathy and Eugene Wedding Checklist</title>
     <!-- Bootstrap and jQuery -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="attendance.css">
+    <link rel="stylesheet" href="style.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- My own Javascript -->
     <script src="wedding.js"></script>
   </head>
   <body>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <!-- /.navbar-collapse -->
+
+    <div class="container">
+         <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://katherineong.me">kathy ong</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="http://www.katherineong.me">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="bio.html">Bio</a></li>
+        <li class="active"><a href="bio.html">Bio <span class="sr-only">(current)</span></a></li>
+        <li><a href="wedding.html">Wedding Checklist</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -45,10 +57,10 @@
       </form>
       </ul>
     </div><!-- /.navbar-collapse -->
-
-    <div class="container">
+  </div><!-- /.container-fluid -->
+</nav>
       <h1>Wedding Checklist</h1>
-      <div>
+      <div class="container">
        <div class="list-group">
           <div> <button type="button" class="list-group-item">Book venue and put down deposit</button> </div>
           <div> <button type="button" class="list-group-item">Reserve room block for hotels</button> </div>
